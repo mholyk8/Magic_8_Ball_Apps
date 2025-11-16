@@ -17,6 +17,11 @@ namespace MagicBall_CSharp
             Random rnd = new Random();    //access the "random" class
             string another;               // the users choice to continue the app or not
             bool isContinue = true;       // the users choice to continue the app or not
+            // text to display to the user
+            string welcomePrompt = "Welcome to the Magic 8 Ball C# Console App";
+            int consoleWidth = Console.WindowWidth;
+            int textLength = welcomePrompt.Length;
+            int leftPadding = (consoleWidth / 2) - (textLength / 2);
 
             // a collection of predictions to display to the user
             string[] prediction = {"It is certain",
@@ -40,7 +45,12 @@ namespace MagicBall_CSharp
                                    "Cannot predict now",
                                    "Concentrate and ask again ", };
 
-            Console.WriteLine("Welcome to the Magical Ball C# Console App");
+            // prevent the text from starting off the console window in the case the string is longer than the window
+            if(leftPadding < 0)
+                leftPadding = 0;
+
+            Console.SetCursorPosition(leftPadding, Console.CursorTop);
+            Console.WriteLine(welcomePrompt);
 
             // repeat until the user quits
             do
