@@ -1,0 +1,8 @@
+C:\Users\mwh8\Documents\_career_GitHub\Magic_Ball_Apps\MagicBall_CSharp\MagicBall_CSharp\bin\Debug\MagicBall_CSharp.exe.config
+C:\Users\mwh8\Documents\_career_GitHub\Magic_Ball_Apps\MagicBall_CSharp\MagicBall_CSharp\bin\Debug\MagicBall_CSharp.exe
+C:\Users\mwh8\Documents\_career_GitHub\Magic_Ball_Apps\MagicBall_CSharp\MagicBall_CSharp\bin\Debug\MagicBall_CSharp.pdb
+C:\Users\mwh8\Documents\_career_GitHub\Magic_Ball_Apps\MagicBall_CSharp\MagicBall_CSharp\obj\Debug\MagicBall_CSharp.csproj.AssemblyReference.cache
+C:\Users\mwh8\Documents\_career_GitHub\Magic_Ball_Apps\MagicBall_CSharp\MagicBall_CSharp\obj\Debug\MagicBall_CSharp.csproj.SuggestedBindingRedirects.cache
+C:\Users\mwh8\Documents\_career_GitHub\Magic_Ball_Apps\MagicBall_CSharp\MagicBall_CSharp\obj\Debug\MagicBall_CSharp.csproj.CoreCompileInputs.cache
+C:\Users\mwh8\Documents\_career_GitHub\Magic_Ball_Apps\MagicBall_CSharp\MagicBall_CSharp\obj\Debug\MagicBall_CSharp.exe
+C:\Users\mwh8\Documents\_career_GitHub\Magic_Ball_Apps\MagicBall_CSharp\MagicBall_CSharp\obj\Debug\MagicBall_CSharp.pdb
