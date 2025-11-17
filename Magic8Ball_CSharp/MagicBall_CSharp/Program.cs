@@ -43,7 +43,7 @@ namespace MagicBall_CSharp
                                    "Ask again later",
                                    "Better not tell you now",
                                    "Cannot predict now",
-                                   "Concentrate and ask again ", };
+                                   "Concentrate and ask again " };
 
             // prevent the text from starting off the console window in the case the string is longer than the window
             if(leftPadding < 0)
