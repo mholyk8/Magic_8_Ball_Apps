@@ -48,6 +48,10 @@ def ask_again():
     return input("Would you like to ask the Magic 8Ball another question? [Y/N] ").strip().upper() == "Y"
 
 def main():
+    """
+    The main thread of the program.
+    :return: none
+    """
     another = True  # boolean value to repeat the program or not
 
     print("Hello user! ", end='')
