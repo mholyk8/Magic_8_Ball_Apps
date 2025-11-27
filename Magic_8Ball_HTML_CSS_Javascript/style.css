@@ -1,0 +1,73 @@
+body{
+    background-color: hsl(271, 74%, 46%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    padding: 0px 20px;
+    text-shadow: 5px 5px 5px black;
+    font-size: 100px;
+    margin: 5px;
+}
+
+/* structure element layout */
+.center{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+textarea{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+/* format the prediction button */
+#action{
+    width: 20%;
+    padding: 20px 0px;
+    border-radius: 50px;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+/* format the div element so that the prediction text will appear overtop the ball image */
+.container {
+    position: relative; 
+    display: block;
+    height: 325px;
+    width: 30%;
+    margin: 1px auto;
+}
+
+/* format the ball image to align behind the prediction text */
+.base {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+/* format the prediction text to align in front of the ball image */
+.overlay {
+    position: absolute;
+    color: white;
+    width: 30%;
+    height: 50%;
+    left: 35%;
+    top: 30%;
+    text-align: center;
+    z-index: 2; 
+} 
